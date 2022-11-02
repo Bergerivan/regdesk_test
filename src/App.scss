@@ -1,0 +1,57 @@
+html, body, #root, #app{
+    //width: 100%;
+    //height: 100%;
+    //padding: 0;
+    //margin: 0;
+}
+#app{
+    .progress{
+        border-radius: 0;
+        height: 2px;
+    }
+    .progress-bar {
+        transition: none;
+    }
+
+    .react-grid-layout{
+        //display: flex;
+        //flex-grow: 1;
+        //overflow: auto;
+        //padding: 10px;
+        //width: 100%;
+        //background: #ccc;
+        border: solid 1px #ccc;
+
+        .react-grid-item{
+            //transform: none !important;
+            background: #ececec;
+        }
+    }
+    .box{
+        //border: none;
+        //padding: 10px;
+        //margin: 0;
+
+        //border: solid 1px #000;
+        //display: flex;
+
+        .box-content{
+            //height: 100%;
+            //width: 100%;
+            //border: solid 1px #000;
+            //background: #ccc;
+        }
+    }
+
+    .refresh-button {
+        padding: 5px;
+        line-height: 0;
+
+        svg{
+            width: 20px;
+            height: 20px;
+            color: #fff;
+            fill: #fff;
+        }
+    }
+}

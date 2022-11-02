@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '/node_modules/react-grid-layout/css/styles.css'
+import '/node_modules/react-resizable/css/styles.css'
+import './App.scss'
+import React from "react";
+import Toolbar from "./Toolbar";
+import Widgets from "./Widgets";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="p-3 d-flex flex-column" id={'app'}>
+            <Toolbar />
+            <Widgets />
+        </div>
+    );
 }
 
 export default App;

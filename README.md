@@ -1,10 +1,10 @@
 ## To open the example site run this commands
 ```
-- git clone https://github.com/Bergerivan/regdesk_test.git
-- cd regdesk_test
-- npm install
-- npm start
-- then site http://localhost:3000 will be opened in browser automatically
+git clone https://github.com/Bergerivan/regdesk_test.git
+cd regdesk_test
+npm install
+npm start
+then site http://localhost:3000 will be opened in browser automatically
 ```
 
 ## There are 5 widgets on the page.

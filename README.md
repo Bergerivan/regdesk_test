@@ -20,4 +20,4 @@ then site http://localhost:3000 will be opened in browser automatically
 - a progress bar that shows how much time is left before the system automatically makes a request for new fake data
 
 ## Async requests
-System make async requests to localhost and then replace response data with randomly generated data for each chart type separately
+System makes async requests to localhost and then replace responses data with randomly generated data for each chart type separately

@@ -14,4 +14,4 @@
 - a progress bar that shows how much time is left before the system automatically makes a request for new fake data
 
 ## Async requests
-System make fake async requests to localhost and then replace response data with randomly generated data for each chart type separately
+System make async requests to localhost and then replace response data with randomly generated data for each chart type separately

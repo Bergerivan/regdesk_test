@@ -1,5 +1,8 @@
-## To open the example site:
-- run command "npm start"
+## To open the example site run this commands
+- git clone https://github.com/Bergerivan/regdesk_test.git
+- cd regdesk_test
+- npm install
+- npm start
 
 ## There are 5 widgets on the page.
 
